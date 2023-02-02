@@ -4,7 +4,7 @@ path = ''
 
 def set_class(class_path: str):
     global path
-    path = 'Classes/' + class_path + '.txt'
+    path = 'h_w8/' + class_path + '.txt'
 
 def set_subject(our_subject: str):
     global subject

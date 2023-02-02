@@ -1,6 +1,6 @@
 import model
 import view
-
+from os import path
 
 def start():
     model.set_class(view.input_class())

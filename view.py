@@ -1,16 +1,16 @@
-import model
+
 
 def input_class():
     return input('С каким классом работаем? ').upper()
 
 def input_subject():
-    return input('Какой предмет? ').lower()
+    return input('Предмет: ').lower()
 
 def who_answer():
-    return input('Кто будет отвечать? ')
+    return input('К доске пойдет...  ')
 
 def what_mark():
-    return input('На какую отметку ответил? ')
+    return input('Ответ на отметку: ')
 
 def list_of_child(journal: dict):
     for i, child in enumerate(journal, 1):
